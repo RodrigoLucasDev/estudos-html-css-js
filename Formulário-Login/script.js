@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
     indiceAtual = (indiceAtual + 1) % imagensFundo.length;
     document.body.style.backgroundImage = `url('${imagensFundo[indiceAtual]}')`;
   });
-
+  toggleSenha.src = "img/olho-fechado.jpg";
   // Mostrar/ocultar senha com ícone de olho
   toggleSenha.addEventListener("click", () => {
     const senhaVisivel = inputSenha.type === "text";
