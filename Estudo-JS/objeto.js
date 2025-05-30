@@ -24,7 +24,7 @@ let usuarios = [
 // Acessar o nome do segundo usuário
 console.log(usuarios[1].nome);
 
-
+usuarios.push()
 
 // Percorrer todos
 usuarios.forEach(usuario => {
