@@ -5,6 +5,8 @@ const alunos = [{ nome: 'Rodrigo', nota: 10 },
 
 alunos.forEach(aluno => {
     if (aluno.nota >= 7) {
-        console.log('O aluno' + aluno.nome + 'foi aprovado com nota: ' + aluno.nota)
+        console.log('O aluno ' + aluno.nome + ' foi aprovado com nota: ' + aluno.nota)
+    }else{
+        console.log('O aluno ' + aluno.nome + ' foi reprovado com nota: ' + aluno.nota)
     }
 });
