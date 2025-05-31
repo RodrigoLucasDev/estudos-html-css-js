@@ -66,12 +66,16 @@ h1 {
   flex: 1;
 }
 
-#marcar-todos {
+#btn-selecionar {
   position: absolute;
-  top: -30px;
   right: 0;
+  margin-top: -11px;
+  font-size: 12px;
   padding: 4px 8px;
-  font-size: 14px;
+  background-color: #b9b9b9;
+  color: white;
+  border: none;
+  border-radius: 4px;
   cursor: pointer;
 }
 
